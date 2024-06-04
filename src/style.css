@@ -1,3 +1,9 @@
-* {
-  background-color: aqua;
+body {
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(./Assets/pexels-athena-2961968.jpg);
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
 }
