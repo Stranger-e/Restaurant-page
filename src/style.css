@@ -7,3 +7,28 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
+button {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffe8c8;
+  color: #ffe8c8;
+  border-radius: 15%;
+  font-size: large;
+  cursor: pointer;
+}
+
+h1 {
+  color: #ffa62f;
+  text-align: center;
+  padding: 100px;
+}
+
+.intro {
+  font-size: large;
+  color: #ffc96f;
+  font-weight: bold;
+  padding: 100px;
+  text-align: center;
+  text-decoration: dotted;
+}
