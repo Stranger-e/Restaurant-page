@@ -5,6 +5,9 @@ export function startUp() {
   header.innerHTML = 'Strangers Grill';
   container.appendChild(header);
 
+  const Image = document.createElement('img');
+  container.appendChild(Image);
+
   const intro = document.createElement('p');
   intro.classList.add('intro');
   intro.innerHTML =

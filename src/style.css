@@ -21,14 +21,27 @@ button {
 h1 {
   color: #ffa62f;
   text-align: center;
-  padding: 100px;
+  padding: 50px;
+}
+
+img {
+  height: 300px;
+  width: 250px;
+  background: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
+    url(./Assets/Chai.jpg);
+  background-size: cover;
+  border: 3px solid #ffe8c8;
+  border-radius: 12%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro {
   font-size: large;
   color: #ffc96f;
   font-weight: bold;
-  padding: 100px;
+  padding: 60px;
   text-align: center;
   text-decoration: dotted;
 }
