@@ -6,6 +6,7 @@ export function startUp() {
   container.appendChild(header);
 
   const Image = document.createElement('img');
+  Image.classList.add('home-img');
   container.appendChild(Image);
 
   const intro = document.createElement('p');

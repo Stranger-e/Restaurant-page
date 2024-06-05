@@ -24,7 +24,7 @@ h1 {
   padding: 50px;
 }
 
-img {
+.home-img {
   height: 300px;
   width: 250px;
   background: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)),
@@ -44,4 +44,12 @@ img {
   padding: 60px;
   text-align: center;
   text-decoration: dotted;
+}
+
+.card {
+  margin-top: 20px;
+  height: 300px;
+  width: 250px;
+  border: 3px solid #ffe8c8;
+  border-radius: 12%;
 }
