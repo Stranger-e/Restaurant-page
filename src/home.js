@@ -9,7 +9,7 @@ export function startUp() {
   Image.classList.add('home-img');
   container.appendChild(Image);
 
-  const intro = document.createElement('p');
+  const intro = document.createElement('h4');
   intro.classList.add('intro');
   intro.innerHTML =
     "Get to dine with some Outstanding strangers, meal cooked by highly skilled and specialized strangers. You definetely won't miss a strange Face.";

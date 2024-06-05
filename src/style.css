@@ -130,3 +130,28 @@ h1 {
     url(./Assets/cabbage.jpg);
   background-size: cover;
 }
+
+/*About page styling*/
+
+.about-page-info {
+  background: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5));
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  border-radius: 2%;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #ffa62f;
+}
+
+h4 {
+  color: #ffc96f;
+}
+
+.about-page-info p {
+  color: #ffc96f;
+  font-size: large;
+}
