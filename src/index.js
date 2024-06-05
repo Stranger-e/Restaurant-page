@@ -2,20 +2,30 @@ import './style.css';
 import Image from './Assets/pexels-athena-2961968.jpg';
 import { startUp } from './home';
 import { MenuItems } from './menu';
-
-const container = document.getElementById('content');
+import { aboutInfo } from './about';
 
 startUp();
 
-const home = document.getElementById('Home-button');
-home.addEventListener('click', () => {
-  container.innerHTML = '';
-  startUp();
-});
+const switchTabs = (function () {
+  const container = document.getElementById('content');
 
-const menu = document.getElementById('Menu-button');
+  const home = document.getElementById('Home-button');
+  home.addEventListener('click', () => {
+    container.innerHTML = '';
+    startUp();
+  });
 
-menu.addEventListener('click', () => {
-  container.innerHTML = '';
-  MenuItems();
-});
+  const menu = document.getElementById('Menu-button');
+
+  menu.addEventListener('click', () => {
+    container.innerHTML = '';
+    MenuItems();
+  });
+
+  const about = document.getElementById('About-button');
+
+  about.addEventListener('click', () => {
+    container.innerHTML = '';
+    aboutInfo();
+  });
+})();
